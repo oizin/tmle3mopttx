@@ -31,7 +31,6 @@ Imports:
     assertthat,
     sl3,
     tmle3,
-    doMC,
     dplyr,
     foreach,
     stats
@@ -47,7 +46,8 @@ Suggests:
     xgboost,
     speedglm,
     glmnet,
-    randomForest
+    randomForest,
+    doMC
 Remotes:
     github::tlverse/delayed,
     github::tlverse/origami,
